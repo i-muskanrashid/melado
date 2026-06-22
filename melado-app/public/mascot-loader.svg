@@ -1,0 +1,121 @@
+<svg viewBox="0 0 400 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Guluna admiring her popsicle">
+  <defs>
+    <linearGradient id="dressL" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff6fae"/><stop offset="1" stop-color="#e23a82"/>
+    </linearGradient>
+    <linearGradient id="popL" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff9ccb"/><stop offset="1" stop-color="#e23a82"/>
+    </linearGradient>
+    <radialGradient id="cheekL" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#ff7fb0"/><stop offset="100%" stop-color="#ff7fb0" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      #m{transform-box:fill-box;transform-origin:center bottom;animation:floatL 3s ease-in-out infinite}
+      @keyframes floatL{0%,100%{transform:translateY(0) rotate(-1.5deg)}50%{transform:translateY(-12px) rotate(1.5deg)}}
+      #armL{transform-box:fill-box;transform-origin:18px 8px;animation:waveL 1.8s ease-in-out infinite}
+      @keyframes waveL{0%,100%{transform:rotate(6deg)}50%{transform:rotate(-18deg)}}
+      .star{transform-box:fill-box;transform-origin:center;animation:tw 1.4s ease-in-out infinite}
+      @keyframes tw{0%,100%{transform:scale(1)}50%{transform:scale(1.22) rotate(8deg)}}
+      .spark{transform-box:fill-box;transform-origin:center;animation:sp 1.9s ease-in-out infinite}
+      @keyframes sp{0%,100%{transform:scale(.7);opacity:.35}50%{transform:scale(1.3);opacity:1}}
+      .cheekL{animation:glowL 3s ease-in-out infinite}
+      @keyframes glowL{0%,100%{opacity:.6}50%{opacity:.95}}
+      @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+    </style>
+  </defs>
+
+  <g id="m">
+    <ellipse cx="200" cy="498" rx="78" ry="14" fill="#c41e63" opacity=".18"/>
+
+    <!-- hair -->
+    <g fill="#3a2a25">
+      <ellipse cx="200" cy="176" rx="90" ry="94"/>
+      <circle cx="200" cy="96" r="30"/>
+      <circle cx="150" cy="118" r="28"/><circle cx="182" cy="102" r="31"/>
+      <circle cx="218" cy="102" r="31"/><circle cx="250" cy="118" r="28"/>
+      <circle cx="128" cy="150" r="28"/><circle cx="272" cy="150" r="28"/>
+      <circle cx="114" cy="192" r="30"/><circle cx="286" cy="192" r="30"/>
+      <circle cx="118" cy="232" r="26"/><circle cx="282" cy="232" r="26"/>
+      <circle cx="132" cy="266" r="20"/><circle cx="268" cy="266" r="20"/>
+    </g>
+    <g fill="#2a1d1a" opacity=".3">
+      <circle cx="126" cy="154" r="9"/><circle cx="274" cy="154" r="9"/>
+      <circle cx="118" cy="230" r="9"/><circle cx="282" cy="230" r="9"/>
+    </g>
+
+    <!-- legs + shoes -->
+    <rect x="172" y="430" width="20" height="46" rx="10" fill="#ffd9bd"/>
+    <rect x="208" y="430" width="20" height="46" rx="10" fill="#ffd9bd"/>
+    <ellipse cx="182" cy="482" rx="20" ry="12" fill="#fff"/>
+    <ellipse cx="218" cy="482" rx="20" ry="12" fill="#fff"/>
+
+    <!-- dress -->
+    <path d="M150 250 Q200 235 250 250 L286 432 Q200 458 114 432 Z" fill="url(#dressL)"/>
+    <path d="M114 432 Q200 458 286 432 L280 446 Q200 470 120 446 Z" fill="#fff" opacity=".5"/>
+    <circle cx="200" cy="300" r="7" fill="#fff" opacity=".8"/>
+    <circle cx="200" cy="340" r="7" fill="#fff" opacity=".8"/>
+
+    <!-- waving arm -->
+    <g id="armL">
+      <rect x="248" y="262" width="74" height="22" rx="11" fill="#ffd9bd" transform="rotate(-32 252 272)"/>
+      <circle cx="312" cy="222" r="15" fill="#ffd9bd"/>
+    </g>
+
+    <!-- head -->
+    <circle cx="200" cy="186" r="84" fill="#ffd9bd"/>
+    <path d="M120 196 a84 84 0 0 0 160 0 q-80 26 -160 0Z" fill="#f3c0a0" opacity=".25"/>
+
+    <!-- fringe -->
+    <g fill="#3a2a25">
+      <circle cx="128" cy="154" r="19"/><circle cx="151" cy="134" r="19"/>
+      <circle cx="176" cy="124" r="20"/><circle cx="200" cy="121" r="20"/>
+      <circle cx="224" cy="124" r="20"/><circle cx="249" cy="134" r="19"/>
+      <circle cx="272" cy="154" r="19"/>
+    </g>
+
+    <!-- STAR EYES (looking down-left toward the popsicle) -->
+    <g transform="translate(164 194)">
+      <path class="star" d="M0 -15 C3 -4 4 -3 15 0 C4 3 3 4 0 15 C-3 4 -4 3 -15 0 C-4 -3 -3 -4 0 -15 Z" fill="#4a2f28"/>
+      <circle cx="-4.5" cy="-4.5" r="3" fill="#fff" opacity=".85"/>
+    </g>
+    <g transform="translate(228 194)">
+      <path class="star" d="M0 -15 C3 -4 4 -3 15 0 C4 3 3 4 0 15 C-3 4 -4 3 -15 0 C-4 -3 -3 -4 0 -15 Z" fill="#4a2f28"/>
+      <circle cx="-4.5" cy="-4.5" r="3" fill="#fff" opacity=".85"/>
+    </g>
+    <!-- brows -->
+    <path d="M150 164 Q168 156 186 164" stroke="#3a2a25" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M214 164 Q232 156 250 164" stroke="#3a2a25" stroke-width="5" fill="none" stroke-linecap="round"/>
+
+    <!-- cheeks -->
+    <circle class="cheekL" cx="150" cy="222" r="17" fill="url(#cheekL)"/>
+    <circle class="cheekL" cx="250" cy="222" r="17" fill="url(#cheekL)"/>
+
+    <!-- nose + big happy smile -->
+    <circle cx="200" cy="212" r="3.5" fill="#f3c0a0"/>
+    <path d="M178 226 Q200 252 222 226 Q200 240 178 226 Z" fill="#b83f60"/>
+    <path d="M178 226 Q200 252 222 226" stroke="#c14d6e" stroke-width="5" fill="none" stroke-linecap="round"/>
+
+    <!-- bow -->
+    <path d="M200 72 L164 50 Q156 76 200 80 Q244 76 236 50 Z" fill="#ff4f9a"/>
+    <circle cx="200" cy="73" r="10" fill="#e23a82"/>
+
+    <!-- popsicle arm -->
+    <path d="M152 262 Q152 312 110 344" stroke="#ffd9bd" stroke-width="22" stroke-linecap="round" fill="none"/>
+
+    <!-- popsicle -->
+    <g id="pop">
+      <rect x="100" y="306" width="14" height="50" rx="7" fill="#e3b277"/>
+      <rect x="100" y="306" width="5" height="50" rx="2.5" fill="#c79a5c" opacity=".55"/>
+      <rect x="84" y="238" width="46" height="82" rx="21" fill="url(#popL)"/>
+      <path d="M84 286 q23 13 46 0 v12 q-23 13 -46 0 z" fill="#ff5fa6" opacity=".5"/>
+      <rect x="92" y="250" width="9" height="52" rx="4.5" fill="#fff" opacity=".4"/>
+      <circle cx="107" cy="348" r="15" fill="#ffd9bd"/>
+    </g>
+
+    <!-- adoring sparkles around the popsicle and head -->
+    <path class="spark" transform="translate(86 214) scale(0.9)" d="M0 -12 C2 -3 3 -2 12 0 C3 2 2 3 0 12 C-2 3 -3 2 -12 0 C-3 -2 -2 -3 0 -12 Z" fill="#ffd23f"/>
+    <path class="spark" transform="translate(150 300) scale(0.7)" d="M0 -12 C2 -3 3 -2 12 0 C3 2 2 3 0 12 C-2 3 -3 2 -12 0 C-3 -2 -2 -3 0 -12 Z" fill="#ff8ac0"/>
+    <path class="spark" transform="translate(300 130) scale(1)" d="M0 -12 C2 -3 3 -2 12 0 C3 2 2 3 0 12 C-2 3 -3 2 -12 0 C-3 -2 -2 -3 0 -12 Z" fill="#ffd23f"/>
+    <path class="spark" transform="translate(70 150) scale(0.65)" d="M0 -12 C2 -3 3 -2 12 0 C3 2 2 3 0 12 C-2 3 -3 2 -12 0 C-3 -2 -2 -3 0 -12 Z" fill="#ff8ac0"/>
+  </g>
+</svg>

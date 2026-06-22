@@ -1,0 +1,111 @@
+<svg viewBox="0 0 400 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Guluna, the Melado mascot, holding a pink popsicle">
+  <defs>
+    <linearGradient id="dress" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff6fae"/><stop offset="1" stop-color="#e23a82"/>
+    </linearGradient>
+    <linearGradient id="pop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff9ccb"/><stop offset="1" stop-color="#e23a82"/>
+    </linearGradient>
+    <radialGradient id="cheekG" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#ff7fb0"/><stop offset="100%" stop-color="#ff7fb0" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      #mascot{transform-box:fill-box;transform-origin:center bottom;animation:float 3.4s ease-in-out infinite}
+      @keyframes float{0%,100%{transform:translateY(0) rotate(-1deg)}50%{transform:translateY(-10px) rotate(1deg)}}
+      #arm-wave{transform-box:fill-box;transform-origin:18px 8px;animation:wave 1.8s ease-in-out infinite}
+      @keyframes wave{0%,100%{transform:rotate(8deg)}50%{transform:rotate(-22deg)}}
+      .eye{transform-box:fill-box;transform-origin:center;animation:blink 4.2s infinite}
+      @keyframes blink{0%,92%,100%{transform:scaleY(1)}96%{transform:scaleY(.08)}}
+      .shine{transform-box:fill-box;transform-origin:center;animation:twinkle 2.2s ease-in-out infinite}
+      @keyframes twinkle{0%,100%{transform:scale(1);opacity:.95}50%{transform:scale(1.4);opacity:.4}}
+      .cheek{animation:glow 3.4s ease-in-out infinite}
+      @keyframes glow{0%,100%{opacity:.55}50%{opacity:.9}}
+      @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+    </style>
+  </defs>
+
+  <g id="mascot">
+    <ellipse cx="200" cy="498" rx="78" ry="14" fill="#c41e63" opacity=".18"/>
+
+    <g fill="#3a2a25">
+      <ellipse cx="200" cy="176" rx="90" ry="94"/>
+      <circle cx="200" cy="96" r="30"/>
+      <circle cx="150" cy="118" r="28"/><circle cx="182" cy="102" r="31"/>
+      <circle cx="218" cy="102" r="31"/><circle cx="250" cy="118" r="28"/>
+      <circle cx="128" cy="150" r="28"/><circle cx="272" cy="150" r="28"/>
+      <circle cx="114" cy="192" r="30"/><circle cx="286" cy="192" r="30"/>
+      <circle cx="118" cy="232" r="26"/><circle cx="282" cy="232" r="26"/>
+      <circle cx="132" cy="266" r="20"/><circle cx="268" cy="266" r="20"/>
+    </g>
+    <g fill="#2a1d1a" opacity=".3">
+      <circle cx="126" cy="154" r="9"/><circle cx="274" cy="154" r="9"/>
+      <circle cx="118" cy="230" r="9"/><circle cx="282" cy="230" r="9"/>
+    </g>
+
+    <rect x="172" y="430" width="20" height="46" rx="10" fill="#ffd9bd"/>
+    <rect x="208" y="430" width="20" height="46" rx="10" fill="#ffd9bd"/>
+    <ellipse cx="182" cy="482" rx="20" ry="12" fill="#fff"/>
+    <ellipse cx="218" cy="482" rx="20" ry="12" fill="#fff"/>
+
+    <path d="M150 250 Q200 235 250 250 L286 432 Q200 458 114 432 Z" fill="url(#dress)"/>
+    <path d="M114 432 Q200 458 286 432 L280 446 Q200 470 120 446 Z" fill="#fff" opacity=".5"/>
+    <circle cx="200" cy="300" r="7" fill="#fff" opacity=".8"/>
+    <circle cx="200" cy="340" r="7" fill="#fff" opacity=".8"/>
+
+    <g id="arm-wave">
+      <rect x="248" y="262" width="74" height="22" rx="11" fill="#ffd9bd" transform="rotate(-32 252 272)"/>
+      <circle cx="312" cy="222" r="15" fill="#ffd9bd"/>
+    </g>
+
+    <circle cx="200" cy="186" r="84" fill="#ffd9bd"/>
+    <path d="M120 196 a84 84 0 0 0 160 0 q-80 26 -160 0Z" fill="#f3c0a0" opacity=".25"/>
+
+    <g fill="#3a2a25">
+      <circle cx="128" cy="154" r="19"/>
+      <circle cx="151" cy="134" r="19"/>
+      <circle cx="176" cy="124" r="20"/>
+      <circle cx="200" cy="121" r="20"/>
+      <circle cx="224" cy="124" r="20"/>
+      <circle cx="249" cy="134" r="19"/>
+      <circle cx="272" cy="154" r="19"/>
+    </g>
+
+    <g class="eye">
+      <ellipse cx="168" cy="192" rx="16" ry="19" fill="#fff"/>
+      <circle cx="170" cy="195" r="11" fill="#4a2f28"/>
+      <circle cx="166" cy="190" r="4" fill="#fff"/>
+    </g>
+    <g class="eye">
+      <ellipse cx="232" cy="192" rx="16" ry="19" fill="#fff"/>
+      <circle cx="230" cy="195" r="11" fill="#4a2f28"/>
+      <circle cx="226" cy="190" r="4" fill="#fff"/>
+    </g>
+    <path d="M150 166 Q168 158 186 166" stroke="#3a2a25" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M214 166 Q232 158 250 166" stroke="#3a2a25" stroke-width="5" fill="none" stroke-linecap="round"/>
+
+    <circle class="cheek" cx="150" cy="222" r="16" fill="url(#cheekG)"/>
+    <circle class="cheek" cx="250" cy="222" r="16" fill="url(#cheekG)"/>
+
+    <circle cx="200" cy="212" r="3.5" fill="#f3c0a0"/>
+    <path d="M182 228 Q200 246 218 228" stroke="#c14d6e" stroke-width="5" fill="none" stroke-linecap="round"/>
+
+    <path d="M200 72 L164 50 Q156 76 200 80 Q244 76 236 50 Z" fill="#ff4f9a"/>
+    <circle cx="200" cy="73" r="10" fill="#e23a82"/>
+
+    <path d="M152 262 Q152 312 110 344" stroke="#ffd9bd" stroke-width="22" stroke-linecap="round" fill="none"/>
+
+    <g id="popsicle">
+      <rect x="100" y="306" width="14" height="50" rx="7" fill="#e3b277"/>
+      <rect x="100" y="306" width="5" height="50" rx="2.5" fill="#c79a5c" opacity=".55"/>
+      <rect x="84" y="238" width="46" height="82" rx="21" fill="url(#pop)"/>
+      <path d="M84 286 q23 13 46 0 v12 q-23 13 -46 0 z" fill="#ff5fa6" opacity=".5"/>
+      <rect x="92" y="250" width="9" height="52" rx="4.5" fill="#fff" opacity=".4"/>
+      <circle class="shine" cx="112" cy="256" r="3.5" fill="#fff"/>
+      <circle cx="107" cy="348" r="15" fill="#ffd9bd"/>
+    </g>
+
+    <text class="shine" x="300" y="120" font-size="22">✦</text>
+    <text class="shine" x="70" y="150" font-size="16">✦</text>
+    <text class="shine" x="320" y="320" font-size="14">✦</text>
+  </g>
+</svg>

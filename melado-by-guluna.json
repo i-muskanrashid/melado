@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "compiled": "2026-06-20",
+    "compiled_by": "Claude Code — dynamic workflow (7 web-search subagents) + live Claude-in-Chrome reads of Instagram",
+    "data_quality_note": "Where live Instagram reads and cached web-search snippets disagreed, the live Chrome read is treated as authoritative (e.g., follower counts, hours).",
+    "sources": [
+      "https://www.instagram.com/meladobyguluna/ (live read)",
+      "https://www.instagram.com/themelado/ (live read)",
+      "https://www.facebook.com/themelado/",
+      "https://www.facebook.com/owais.jaan.73345/posts/da-guluna-ice-cream-brand-melado-by-guluna-peshawar-b1-old-jamrud-road-near-bita/1694001111782969/",
+      "https://www.tiktok.com/@foodie.owais/video/7635962198128364818",
+      "https://www.meladopk.com"
+    ]
+  },
+
+  "business": {
+    "name": "Melado by Guluna",
+    "handle": "meladobyguluna",
+    "display_name": "Melado By Guluna",
+    "parent_brand": "Melado",
+    "parent_company": "Prime Industries",
+    "category": "Ice Cream Shop",
+    "concept": "Premium artisanal ice cream, shakes, and pure-fruit popsicles",
+    "tagline_short": "Ice cream • Shakes • Popsicles",
+    "tagline_brand": "Exquisite Premium Dairy Ice Cream & Artisanal Pure Fruit Popsicles. Crafted from Natural Ingredients.",
+    "description": "The Peshawar outlet ('Da Guluna Ice Cream Brand') of the national Melado brand by Prime Industries. Markets premium dairy ice cream (a stated 19 unique flavors), milkshakes, cones, and natural-ingredient fruit popsicles. Late-night hours and a strong social-media presence (notably larger Instagram following than the parent brand)."
+  },
+
+  "location": {
+    "address": "B1, Old Jamrud Road, near Bitani Plaza, University Town, Peshawar",
+    "neighborhood": "University Town",
+    "city": "Peshawar",
+    "province": "Khyber Pakhtunkhwa",
+    "country": "Pakistan",
+    "landmarks": ["Near Bitani Plaza (also spelled Bita Plaza)", "Near Chief Grill", "On Old Jamrud Road"]
+  },
+
+  "hours": {
+    "instagram_bio": "12:00 PM – 1:00 AM",
+    "web_listings": "12:00 PM – 2:00 AM",
+    "note": "Live Instagram bio states 1:00 AM closing; several web/Facebook listings state 2:00 AM. Confirm with the shop. No weekly closure day stated — appears to operate daily.",
+    "open_daily": true
+  },
+
+  "contact": {
+    "website": "https://www.meladopk.com",
+    "website_note": "Parent Melado brand website (no dedicated site found for the Guluna outlet).",
+    "phone": "unknown",
+    "whatsapp": "unknown",
+    "email": "unknown",
+    "best_contact_channel": "Instagram DM (@meladobyguluna)"
+  },
+
+  "social_media": {
+    "instagram": {
+      "handle": "@meladobyguluna",
+      "url": "https://www.instagram.com/meladobyguluna/",
+      "followers": 58100,
+      "posts": 32,
+      "following": 3,
+      "as_of": "2026-06-20 (live read)"
+    },
+    "parent_instagram": {
+      "handle": "@themelado",
+      "url": "https://www.instagram.com/themelado/",
+      "followers": 9747,
+      "posts": 485,
+      "following": 2,
+      "as_of": "2026-06-20 (live read)"
+    },
+    "facebook": {
+      "parent_page": "https://www.facebook.com/themelado/",
+      "note": "Outlet content appears under 'Da Guluna Ice Cream Brand / Melado by Guluna Peshawar' posts and videos; parent page lists a 100% recommend rating from a small sample (~7 reviews)."
+    },
+    "tiktok": {
+      "official_handle": "unknown",
+      "note": "No confirmed single official handle; heavy user-generated review content exists, e.g. @foodie.owais 'Guluna Ki Ice Cream Shop Review | Melado Peshawar'."
+    },
+    "youtube": "none found"
+  },
+
+  "menu": [
+    { "item": "Ice Cream", "category": "Ice Cream", "flavors_marketed": "19 unique flavors", "description": "Premium dairy ice cream. Specific flavor names not confirmed from public sources.", "price_pkr": "unknown" },
+    { "item": "Popsicles", "category": "Popsicles", "description": "Artisanal pure-fruit popsicles made from natural ingredients.", "price_pkr": "unknown" },
+    { "item": "Shakes", "category": "Shakes", "description": "Milkshakes.", "price_pkr": "unknown" },
+    { "item": "Cones", "category": "Cones", "description": "Ice cream cones.", "price_pkr": "unknown" }
+  ],
+
+  "pricing": {
+    "currency": "PKR",
+    "known_data_point": "One @meladobyguluna Instagram post caption stated '150 each — everything in the video' (PKR 150).",
+    "full_price_list": "unknown — not published publicly; held inside TikTok/Instagram videos. Contact shop for itemized prices."
+  },
+
+  "brand_story": {
+    "summary": "Melado is a Pakistani premium dairy ice cream, fruit-popsicle, and shake brand by Prime Industries, marketed as natural / 100% organic, rich, and creamy. Publicly branded as 'Melado by Guluna' (a.k.a. 'Da Guluna Ice Cream Brand'), tying the product line to the 'Guluna' persona.",
+    "celebrity_association": "Promotional content references 'Melado X Asim Kamal X Guluna Kamal'; Melado publicly welcomed former Pakistan cricketer Asim Kamal 'to the Melado family.' Guluna Kamal (associated with Asim Kamal's family) is central to brand identity — exact role (founder vs ambassador vs namesake) is asserted via social posts, not official filings.",
+    "expansion": ["Peshawar (University Town)", "Mingora, Swat (opening 20 June 2026)", "Gujranwala (Satellite Town)", "Bahawalpur", "Kamoke", "Khanewal", "Multan", "Quetta", "Lahore"]
+  },
+
+  "announcements": {
+    "new_branch": {
+      "city": "Mingora, Swat",
+      "status": "Opening Soon",
+      "opening_date": "2026-06-20",
+      "opening_time": "2:00 PM onwards",
+      "event": "Meet & Greet with Asim Kamal; special treats for first guests",
+      "source": "https://www.instagram.com/meladobyguluna/ (Opening Soon post, live read)"
+    }
+  },
+
+  "reputation": {
+    "sentiment": "Overwhelmingly positive, driven by social media and local Peshawar foodie influencers rather than review aggregators.",
+    "facebook_rating": "100% recommend (only ~7 reviews — small sample)",
+    "instagram_following_note": "~58k followers is unusually large for a single-city ice cream shop.",
+    "caveats": "No Google Maps star rating surfaced; verbatim influencer-video quotes and any criticism could not be extracted from search snippets. Marketing descriptors ('premium', 'creamy', 'natural') are brand language, not verified independent quotes."
+  },
+
+  "confidence_notes": {
+    "well_sourced": ["full address", "city/neighborhood/landmarks", "product categories", "Instagram handles", "parent brand + Prime Industries parentage", "follower counts and post counts (live Chrome read 2026-06-20)", "Mingora Swat opening (live Chrome read)"],
+    "uncertain": ["exact closing hour (1 AM bio vs 2 AM listings)", "'19 unique flavors' (marketing claim)", "Facebook 100% rating (tiny sample)"],
+    "single_data_point": ["PKR 150 price from one Instagram caption — not a full price list"],
+    "unknown": ["phone / WhatsApp / email", "itemized flavor names and prices", "official TikTok/YouTube handles", "exact founding date", "Guluna Kamal's precise formal role", "Prime Industries corporate registration"],
+    "do_not_confuse_with": ["@melado_official (Polish cosmetics)", "Kamal's Ice Cream & Industries Pvt. Ltd. (Howrah, West Bengal, India — unrelated)"]
+  }
+}
