@@ -8,7 +8,7 @@ type Msg = { role: "system" | "user" | "assistant"; content: string };
 
 // Provider: if GROQ_API_KEY is set, use Groq (cloud, works on Vercel). Else local Ollama.
 const GROQ_KEY = process.env.GROQ_API_KEY;
-const GROQ_MODEL = process.env.GROQ_MODEL || "llama-3.3-70b-versatile";
+const GROQ_MODEL = process.env.GROQ_MODEL || "llama-3.1-8b-instant";
 const OLLAMA = process.env.OLLAMA_URL || "http://127.0.0.1:11434";
 const OLLAMA_MODEL = process.env.OLLAMA_CHAT_MODEL || "llama3.2:3b";
 const MIN_SCORE = Number(process.env.RAG_MIN_SCORE || 0.48);

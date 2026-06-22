@@ -1,5 +1,7 @@
 import "./globals.css";
 import type { Metadata, Viewport } from "next";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import ServiceWorkerRegister from "@/components/ServiceWorkerRegister";
 import Chat from "@/components/Chat";
 
@@ -108,6 +110,8 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         {children}
         <Chat />
         <ServiceWorkerRegister />
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
